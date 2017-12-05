@@ -14,7 +14,6 @@ class User extends Authenticatable
      *
      * @var array
      */
-    public $timestamps = false;
     protected $guarded = [];
 
     /**
@@ -23,6 +22,6 @@ class User extends Authenticatable
      * @var array
      */
     protected $hidden = [
-        'password', 'remember_token',
+        'password', 'remember_token'
     ];
 }
